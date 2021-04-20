@@ -1,0 +1,5 @@
+/.mypy_cache/
+/.pytest_cache/
+/.tox/
+/UNKNOWN.egg-info/
+/.idea/

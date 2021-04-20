@@ -1,0 +1,41 @@
+[tool.penitus-py]
+name = "penitus"
+version = "1.0.0"
+description = "Shows information about cryptocurrencies, like prices."
+license = "MIT"
+
+authors = [
+   "Gino Zanella <iosgino@hotmail.com>"
+]
+
+readme = "README.md"
+python = "^3.0"
+
+keywords = [
+   "Cryptocurrency",
+   "Finances",
+   "Bitcoin",
+   "Coinpaprika",
+   "Investing"
+]
+
+classifiers = [
+   "License :: OSI Approved :: MIT License",
+   "Development Status :: 4 - Beta",
+   "Natural Language :: English",
+   "Programming Language :: Python",
+   "Programming Language :: Python :: 3",
+   "Programming Language :: Python :: 3.7",
+   "Topic :: Software Development",
+   "Topic :: Office/Business :: Financial :: Investment",
+]
+
+[tool.penitus-py.dependencies]
+requests = "^2.25.1"
+
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[tool.black]
+line-length = 100
