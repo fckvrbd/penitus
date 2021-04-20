@@ -9,6 +9,7 @@ authors = [
 ]
 
 readme = "README.md"
+repository = "https://github.com/fckvrbd/penitus"
 python = "^3.0"
 
 keywords = [

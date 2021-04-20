@@ -3,3 +3,5 @@
 /.tox/
 /UNKNOWN.egg-info/
 /.idea/
+/dist/
+/build/
